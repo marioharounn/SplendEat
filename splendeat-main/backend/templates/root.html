@@ -1,0 +1,11 @@
+{% load static %}
+<!-- <!doctype html> -->
+<html>
+  <head>
+    <script defer src="{% static 'index-bundle.js' %}"></script>
+  </head>
+  <body>
+    {% csrf_token %}
+    <div id="root" />
+  </body>
+</html>
